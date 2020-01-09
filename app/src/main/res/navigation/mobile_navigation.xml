@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.dipak.foodmandu.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_favoourites"
+        android:name="com.dipak.foodmandu.ui.favourates.FavouratesFragment"
+        android:label="@string/menu_favourites"
+        tools:layout="@layout/activity_login" />
+
+    <fragment
+        android:id="@+id/nav_basket"
+        android:name="com.dipak.foodmandu.ui.basket.basketFragment"
+        android:label="@string/menu_basket"
+        tools:layout="@layout/fragment_basket" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.dipak.foodmandu.ui.bakeries.BakeriesFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.dipak.foodmandu.ui.notification.NotificationFragment"
+        android:label="@string/menu_notification"
+        tools:layout="@layout/fragment_notification" />
+
+</navigation>

@@ -5,26 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/food"
+    android:background="#9C1F1F"
     tools:context=".SplashActivity">
-
-
-
-    <FrameLayout
-        android:layout_width="330dp"
-        android:layout_height="200dp"
-        android:layout_marginLeft="37dp"
-        android:layout_marginTop="250dp"
-        android:background="#C3ECDEDE">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome To Foodmandu"
+        android:text="Foodmandu"
         android:textSize="50dp"
         android:textAlignment="center"
-        android:textColor="#E41131"/>
-
-    </FrameLayout>
+        android:layout_marginTop="250dp"
+        android:textColor="#FFB300"/>
 
 </LinearLayout>

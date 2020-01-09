@@ -5,22 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/foods"
     tools:context=".LoginActivity">
 
-
-    <FrameLayout
-        android:layout_width="350dp"
-        android:layout_height="400dp"
-        android:layout_marginLeft="31dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="160dp"
-        android:background="@drawable/border">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -57,23 +43,22 @@
             android:text="Login"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
+            android:clickable="true"
             android:background="@drawable/button_round"
             android:textSize="30dp"
             android:id="@+id/btnlogin"/>
 
-        <TextView
-            android:id="@+id/tvsignup"
+        <Button
+            android:id="@+id/tvregister1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="SINGUP!! Create New Account!!!"
             android:textSize="15dp"
             android:textStyle="bold"
+            android:clickable="true"
             android:gravity="center"
             android:textColor="#0C0202"/>
-
-        </LinearLayout>
-    </FrameLayout>
 
 
 </LinearLayout>
