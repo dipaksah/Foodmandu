@@ -102,6 +102,8 @@ public class dashboardActivity extends AppCompatActivity implements NavigationVi
                 Intent intent = new Intent(dashboardActivity.this, LoginActivity.class);
                 startActivity(intent);
                 break;
+            }case R.id.imageView:{
+                fetchImage();
             }
         }
 
